@@ -1,4 +1,4 @@
-body{  padding: 20px;
+body, h2{  padding: 20px;
     font-weight: bolder;
     font-family: system-ui, 'Segoe UI';
   }
@@ -30,27 +30,22 @@ li a:hover {
   background-color: #111;}
 
 /*forms section background blue*/
-
+form{margin-left: 5%;}
 input {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
   }
+
 label{padding: 10px;}
+
 /*images */
   img {padding: 40px; }
 
+/*contact us */
   aside {
-    width: 40%;
-    padding-left: 0.5rem;
-    margin-left: 0.5rem;
+    box-shadow: inset 20px 0 5px -5px #70d1c6;
+    width: 50%;
     float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
-  }
-  
-  aside > p {
-    margin: 0.5rem;
-  }
-  
+ }
+ aside >p ,h2{font-size:x-large; text-align: center;}
