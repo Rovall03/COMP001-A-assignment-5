@@ -1,0 +1,42 @@
+body{  padding: 20px;
+    font-weight: bolder;
+    font-family: system-ui, 'Segoe UI';
+  }
+  .content{background-color: aliceblue;}
+h1, footer{text-align: center; text-decoration: underline; background-color: rgb(216, 236, 254);}
+
+/*styling for top nav bar start */
+ul {
+  list-style-type: none;
+  margin:  0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b0a7a7;
+}
+
+li {
+  float: left;
+}
+
+li a { font-size: large;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  
+}
+
+li a:hover {
+  background-color: #111;}
+
+/*forms section background blue*/
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+label{padding: 10px;}
+/*images */
+  img {padding: 40px; }
+
